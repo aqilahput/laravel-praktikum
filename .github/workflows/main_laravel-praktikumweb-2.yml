@@ -29,7 +29,6 @@ jobs:
           node-version: '18'
 
       - name: Install npm dependencies and build frontend
-        working-directory: laravel-praktikum
         run: |
           npm install
           npm run build
